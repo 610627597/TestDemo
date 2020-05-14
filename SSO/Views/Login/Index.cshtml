@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>登陆</title>
+</head>
+<body>
+    <font color="red">@ViewBag.message</font>
+    <form action="~/Login/Login" method="post">
+        用户名:<input type="text" id="account" name="account">
+        密码:<input type="password" id="password" name="password">
+        <input  type="submit" value="登陆" />
+    </form>
+</body>
+</html>
